@@ -1,0 +1,46 @@
+section {
+    margin: 30px 200px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.review-content {
+    margin: 0 50px 20px 0;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+
+.review-content .content {
+    border: none;
+    padding: 5px;
+    outline: none;
+    background-color: bisque;
+    margin-bottom: 110px;
+    width: 100%;
+}
+
+.review-content .date {
+    display: inline;
+    margin: 0 40px 0 0;
+}
+
+.review-content .btn-pushlish {
+    background-color: bisque;
+    color: blue;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.review-content .delete{
+    cursor: pointer;
+}

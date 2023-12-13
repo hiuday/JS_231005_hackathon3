@@ -1,0 +1,18 @@
+header {
+    margin: 30px 200px;
+
+}
+
+.title-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-review .icon {
+    color: rgb(64, 64, 211);
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}

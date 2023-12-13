@@ -1,0 +1,21 @@
+section {
+    margin: 30px 200px;
+}
+
+.search .icon {
+    position: absolute;
+    left: 203px;
+    top: 105px;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.search .search-name {
+    width: 100%;
+    position: relative;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(188, 187, 187);
+    border-radius: 10px;
+}
