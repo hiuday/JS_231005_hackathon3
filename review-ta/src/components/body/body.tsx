@@ -47,6 +47,9 @@ const Content: React.FC<Props> = (props: Props) => {
               <li className="review-content" key={item.id}>
                 <p className="form-content">{item.content}</p>
                 <input
+                 onChange={(e) => {
+                    setContent(e.target.value);
+                  }}
                   value={content}
                   className="content"
                   type="text"
